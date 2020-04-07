@@ -1,0 +1,3361 @@
+<html>
+<head>
+  <title>Schedules</title>
+
+  <script type="text/javascript">
+    window.onload = function(){
+      var lineDisplay = document.getElementById("selection");
+
+      lineDisplay.addEventListener("change", function(){
+        var gb1 = document.getElementById("gb1");
+        var gb2 = document.getElementById("gb2");
+        var gc1 = document.getElementById("gc1");
+        var gc2 = document.getElementById("gc2");
+        var gd1 = document.getElementById("gd1");
+        var gd2 = document.getElementById("gd2");
+        var ge1 = document.getElementById("ge1");
+        var ge2 = document.getElementById("ge2");
+        var r1 = document.getElementById("r1");
+        var r2 = document.getElementById("r2");
+        var b1 = document.getElementById("b1");
+        var b2 = document.getElementById("b2");
+        var o1 = document.getElementById("o1");
+        var o2 = document.getElementById("o2");
+        var greenLine = document.getElementById("greenLine");
+        var b = document.getElementById("b");
+        var c = document.getElementById("c");
+        var d = document.getElementById("d");
+        var e = document.getElementById("e");
+        var r = document.getElementById("r");
+        var blue = document.getElementById("blue");
+        var o = document.getElementById("o");
+
+        console.log(lineDisplay.value);
+
+        switch(lineDisplay.value){
+          case "1":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "2":
+            console.log("1 is selected");
+            gb1.style.display="";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "3":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "4":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "5":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "6":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "7":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "8":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "9":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "10":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "11":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="";
+            blue.style.display="none";
+            o.style.display="none";
+            break;
+
+          case "12":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="";
+            o.style.display="none";
+            break;
+
+          case "13":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="";
+            o1.style.display="none";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="";
+            o.style.display="none";
+            break;
+
+          case "14":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="";
+            o2.style.display="none";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="";
+            break;
+
+          case "15":
+            console.log("1 is selected");
+            gb1.style.display="none";
+            gb2.style.display="none";
+            gc1.style.display="none";
+            gc2.style.display="none";
+            gd1.style.display="none";
+            gd2.style.display="none";
+            ge1.style.display="none";
+            ge2.style.display="none";
+            r1.style.display="none";
+            r2.style.display="none";
+            b1.style.display="none";
+            b2.style.display="none";
+            o1.style.display="none";
+            o2.style.display="";
+            greenLine.style.display="none";
+            b.style.display="none";
+            c.style.display="none";
+            d.style.display="none";
+            e.style.display="none";
+            r.style.display="none";
+            blue.style.display="none";
+            o.style.display="";
+            break;
+
+        }
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <h1 style="font-size:300%;">MBTA Subway Schedules</h1>
+  <h2>Choose a line:</h2>
+
+
+  <div id="greenLine" style="display:none">
+    <h1 style="color:green;">Green Line</h1>
+  </div>
+
+    <div id="b" style="display:none">
+      <h2>B Line<h2>
+    </div>
+
+      <div id="gb1" style="display:none">
+        <h3>Eastbound Trains<h3>
+          <table border="6" bordercolor="green">
+            <tr>
+              <th>Station</th>
+              <th>Train 1</th>
+              <th>Train 2</th>
+              <th>Train 3</th>
+              <th>Train 4</th>
+              <th>Train 5</th>
+
+            </tr>
+
+            <tr>
+              <td>Boston College</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>South Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Chestnut Hill Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Chiswick Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Sutherland Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Washington Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Warren Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Allston Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Griggs Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Harvard Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Packards Corner</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Babcock Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Pleasant Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU West</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU Central</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU East</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Blandford Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kenmore</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hynes Convention Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Copley</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Arlington</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Boylston</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+            <td>Park Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+
+            <tr>
+              <td>Government Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Haymarket</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>North Station</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Science Park/West End</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Lechmere</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+      </div>
+
+      <div id="gb2" style="display:none">
+        <h3>Westbound Trains<h3>
+          <table border="6" bordercolor="green">
+            <tr>
+              <th>Station</th>
+              <th>Train 1</th>
+              <th>Train 2</th>
+              <th>Train 3</th>
+              <th>Train 4</th>
+              <th>Train 5</th>
+            </tr>
+
+            <tr>
+              <td>Lechmere</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>science Park/West End</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>North Station</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Haymarket</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Government Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Park Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Boylston</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Arlington</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Copley</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hynes Convention Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kenmore</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Blandford Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU East</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU Central</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>BU West</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Pleasant Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Babcock Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Packards Corner</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Harvard Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Griggs Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Allston Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Warren Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+            <td>Washington Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+
+            <tr>
+              <td>Sutherland Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Chiswick Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Chestnut Hill Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>South Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Boston College</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+
+    <div id="c" style="display:none">
+      <h2>C Line<h2>
+    </div>
+
+    <div id="gc1" style="display:none">
+        <h3>Eastbound Trains<h3>
+          <table id="gc1" border="6" bordercolor="green">
+            <tr>
+              <th>Station</th>
+              <th>Train 1</th>
+              <th>Train 2</th>
+              <th>Train 3</th>
+              <th>Train 4</th>
+              <th>Train 5</th>
+            </tr>
+
+            <tr>
+              <td>Cleveland Circle</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Englewood Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Dean Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Tappan Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Washington Square</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Fairbanks Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Brandon Hall</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Summit Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Coolidge Corner</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Saint Paul Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kent Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hawes Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kenmore</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hynes Convention Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Copley</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Arlington</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Boylston</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Park Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Government Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Haymarket</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>North Station</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Science Park/West End</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Lechemere</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+      </div>
+
+      <div id="gc2" style="display:none">
+        <h3>Westbound Trains<h3>
+          <table border="6" bordercolor="green">
+            <tr>
+              <th>Station</th>
+              <th>Train 1</th>
+              <th>Train 2</th>
+              <th>Train 3</th>
+              <th>Train 4</th>
+              <th>Train 5</th>
+            </tr>
+
+            <tr>
+              <td>Lechmere</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Science Park/West End</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>North Station</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Haymarket</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Government Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Park Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Boylston</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Arlington</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Copley</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hynes Convention Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kenmore</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Hawes Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Kent Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Saint Paul Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Coolidge Corner</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Summit Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Brandon Hall</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Fairbanks Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Washington Square</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Tappan Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Dean Road</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Englewood Avenue</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Cleveland Circle</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+      </div>
+
+    <div id="d" style="display:none">
+      <h2>D Line</h2>
+    </div>
+
+    <div id="gd1" style="display:none">
+      <h3>Eastbound Trains<h3>
+        <table id="gd1" border="6" bordercolor="green">
+          <tr>
+            <th>Station</th>
+            <th>Train 1</th>
+            <th>Train 2</th>
+            <th>Train 3</th>
+            <th>Train 4</th>
+            <th>Train 5</th>
+          </tr>
+
+          <tr>
+            <td>Riverside</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Woodland</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Waban</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Eliot</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Newton Highlands</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Newton Centre</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Chestnut Hill</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Reservoir</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Beaconsfield</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Brookline Hills</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Longwood</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Fenway</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Kenmore</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Hynes Convention Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Copley</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Arlington</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Boylston</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Park Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Government Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Haymarket</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>North Station</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Science Park/West End</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Lechemere</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+    </div>
+
+    <div id="gd2" style="display:none">
+      <h3>Westbound Trains<h3>
+        <table id="gd2" border="6" bordercolor="green">
+          <tr>
+            <th>Station</th>
+            <th>Train 1</th>
+            <th>Train 2</th>
+            <th>Train 3</th>
+            <th>Train 4</th>
+            <th>Train 5</th>
+          </tr>
+
+          <tr>
+            <td>Lechmere</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Science Park/West End</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>North Station</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Haymarket</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Government Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Park Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Boylston</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Arlington</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Copley</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Hynes Convention Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Kenmore</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Fenway</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Longwood</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Brookline Hills</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Beaconsfield</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Reservoir</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Chestnut Hill</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Newton Centre</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Newton Highlands</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Eliot</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Waban</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Woodland</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Riverside</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+    </div>
+  <div id="e" style="display:none">
+    <h2>E Line</h2>
+  </div>
+
+  <div id="ge1" style="display:none">
+    <h3>Eastbound Trains<h3>
+      <table border="6" bordercolor="green">
+        <tr>
+          <th>Station</th>
+          <th>Train 1</th>
+          <th>Train 2</th>
+          <th>Train 3</th>
+          <th>Train 4</th>
+          <th>Train 5</th>
+        </tr>
+
+        <tr>
+          <td>Heath Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Back of the Hill</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Riverway</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Mission Park</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Fenwood Road</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Brigham Circle</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Longwood Medical Area</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>MFA</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Northeastern</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Symphony</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Prudential</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Copley</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Arlington</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Boylston</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Park Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Government Center</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Haymarket</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>North Station</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Science Park/West End</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Lechemere</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="ge2" style="display:none">
+    <h3>Westbound Trains<h3>
+      <table border="6" bordercolor="green">
+        <tr>
+          <th>Station</th>
+          <th>Train 1</th>
+          <th>Train 2</th>
+          <th>Train 3</th>
+          <th>Train 4</th>
+          <th>Train 5</th>
+        </tr>
+
+        <tr>
+          <td>Lechemere</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Science Park/West End</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>North Station</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Haymarket</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Government Center</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Park Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Boylston</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Arlington</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Copley</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Prudential</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Symphony</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Northeastern</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>MFA</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Longwood Medical Area</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Brigham Circle</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Fenwood Road</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Mission Park</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Riverway</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Back of the Hill</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Heath Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="r" style="display:none">
+    <h1 style="color:crimson;">Red Line</h1>
+    </div>
+
+    <div id="r1" style="display:none">
+      <h3>Southbound Trains<h3>
+      <table id="r1" border="6" bordercolor="crimson">
+        <tr>
+          <th>Station (Ashmont)</th>
+          <th>Station (Braintree)</th>
+          <th>Train 1</th>
+          <th>Train 2</th>
+          <th>Train 3</th>
+          <th>Train 4</th>
+          <th>Train 5</th>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Alewife</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Davis</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Porter</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Harvard</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Central</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Kendall/MIT</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Charles/MGH</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Park Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Downtown Crossing</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">South Station</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Broadway</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">Andrew</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">JFK/UMass</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="right">North Quincy</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="right">Wollaston</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="right">Quincy Center</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="right">Quincy Adams</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td align="right">Braintree</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Savin Hill</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Fields Corner</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Shawmut</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Ashmont</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      </div>
+
+
+      <div id="r2" style="display:none">
+      <h3>Northbound Trains<h3>
+        <table id="r2" border="6" bordercolor=crimson>
+          <tr>
+            <th>Station (Ashmont)</th>
+            <th>Station (Braintree)</th>
+            <th>Train 1</th>
+            <th>Train 2</th>
+            <th>Train 3</th>
+            <th>Train 4</th>
+            <th>Train 5</th>
+          </tr>
+
+          <tr>
+            <td>Ashmont</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Shawmut</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Fields Corner</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Savin Hill</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="right">Braintree</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="right">Quincy Adams</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="right">Quincy Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="right">Wollaston</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td align="right">North Quincy</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">JFK/UMass</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Andrew</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Broadway</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">South Station</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Downtown Crossing</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Parker Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Charles/MGH</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Central</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Harvard</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Porter</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Davis</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">Alewife</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+
+    <div id="blue" style="display:none">
+    <h1 style="color:blue;">Blue Line</h1>
+    </div>
+
+    <div id="b1" style="display:none">
+      <h3>Eastbound</h3>
+        <table border="6" bordercolor="blue">
+          <tr>
+            <th>Station</th>
+            <th>Train 1</th>
+            <th>Train 2</th>
+            <th>Train 3</th>
+            <th>Train 4</th>
+            <th>Train 5</th>
+          </tr>
+
+          <tr>
+            <td>Bowdoin</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Government Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>State Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Aquarium</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Maverick</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Airport</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Wood Island</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Orient Heights</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Suffolk Downs</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Beachmont</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Revere Beach</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Wonderland</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
+
+        <div id="b2" style="display:none">
+        <h3>Westbound</h3>
+          <table border="6" bordercolor="blue">
+            <tr>
+              <th>Station</th>
+              <th>Train 1</th>
+              <th>Train 2</th>
+              <th>Train 3</th>
+              <th>Train 4</th>
+              <th>Train 5</th>
+            </tr>
+
+            <tr>
+              <td>Wonderland</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Revere Beach</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Beachmont</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Suffolk Downs</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Orient Heights</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Wood Island</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Airport</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Maverick</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Aquarium</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>State Street</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Government Center</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>Bowdoin</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          </div>
+
+    <div id="o" style="display:none">
+    <h1 style="color:darkorange;">Orange Line</h1>
+    </div>
+
+    <div id="o1" style="display:none">
+    <h3>Southbound Trains</h3>
+      <table border="6" bordercolor="darkorange">
+        <tr>
+          <th>Station</th>
+          <th>Train 1</th>
+          <th>Train 2</th>
+          <th>Train 3</th>
+          <th>Train 4</th>
+          <th>Train 5</th>
+        </tr>
+
+        <tr>
+          <td>Oak Grove</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Malden Center</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Wellington</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Assembly</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Sullivan Square</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Community College</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>North Station</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Haymarket</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>State Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Downtown Crossing</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Chinatown</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Tufts Medical Center</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Back Bay</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Massachusetts Avenue</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Ruggles</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Roxbury Crossing</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Jackson Square</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Stony Brook</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Green Street</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>Forest Hills</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      </div>
+
+      <div id="o2" style="display:none">
+      <h3>Northbound Trains</h3>
+        <table border="6" bordercolor="darkorange">
+          <tr>
+            <th>Station</th>
+            <th>Train 1</th>
+            <th>Train 2</th>
+            <th>Train 3</th>
+            <th>Train 4</th>
+            <th>Train 5</th>
+          </tr>
+
+          <tr>
+            <td>Forest Hills</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Green Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Stony Brook</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Jackson Square</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Roxbury Crossing</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Ruggles</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Massachusetts Avenue</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Back Bay</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Tufts Medical Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Chinatown</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Downtown Crossing</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>State Street</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Haymarket</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>North Station</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Community College</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Sullivan Square</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Assembly</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Wellington</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Malden Center</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td>Oak Grove</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+
+
+      <select id="selection">
+        <option value="1" selected>None</option>
+        <option value="2">Green Line B Eastbound</option>
+        <option value="3">Green Line B Westbound</option>
+        <option value="4">Green Line C Eastbound</option>
+        <option value="5">Green Line C Westbound</option>
+        <option value="6">Green Line D Eastbound</option>
+        <option value="7">Green Line D Westbound</option>
+        <option value="8">Green Line E Eastbound</option>
+        <option value="9">Green Line E Westbound</option>
+        <option value="10">Red Line Southbound</option>
+        <option value="11">Red Line Northbound</option>
+        <option value="12">Blue Line Eastbound</option>
+        <option value="13">Blue Line Westbound</option>
+        <option value="14">Orange Line Southbound</option>
+        <option value="15">Orange Line Northbound</option>
+      </select>
+
+</body>
+</html>

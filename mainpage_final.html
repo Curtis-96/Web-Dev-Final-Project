@@ -1,50 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <link href="style.css" type="text/css" rel="stylesheet"/>
-  <meta charset="utf-8">
-  <title>Home Page MBTA</title>
-</head>
-
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mainpage_style_final.css">
+  </head>
 <body>
-<header style="background-color: grey; height: 50px; width: 100%; text-align: center;">
-  <h1 style="color: green; font-size: 24px; text-align: center;"><span style="text-align: center;">Massachusetts Bay Transport Authority</span>
-  </h1>
-</header>
+<h1 style="color: #228B22	; font-size: 24px; text-align: center; text-decoration: underline overline;">Massachusetts Bay Transport Authority</h1>
 
-<section style="width: 100%; text-align: center; display: flex">
-  <div style="width: 10%">
-    <nav style="color: green; float: left; background-color: grey; font-size: 12px; height: 600px; width: 100%;">
-      <ul style="float: left; font-size: 12px; color: green; background-color: grey; list-style-type: none;">
-        <li>
-          <form action="schedules.html" style="background-color: grey">
-            <input type="submit" value="View Schedule" style="background-color: white; border-color: white"/>
-          </form>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div style="width: 70%">
-    <article class="flex: 1">
-      <p style="color: black; text-align: left; float: right; margin: 2%">Welcome to the official page of the Massachusetts Bay Transport Authority (MBTA). We have established this website to ensure our loyal patrons
-        receive the best service possible. We are fully committed to granting transparency for all of our commuters in the Greater Boston Area. This site provides
-        all relevant information to customers, including both train schedules and location information. </p>
-      <img src="https://i.ytimg.com/vi/2SpKtIj6jwg/maxresdefault.jpg" style="width:80%; height: 80%" alt="https://netflixroulette.files.wordpress.com/2013/01/image-not-found.gif">
-    </article>
-  </div>
-  <div style="padding-top: 30px; text-align: right">
-    <a class="twitter-timeline" data-width="300" data-height="780" data-theme="light" href="https://twitter.com/MBTA?ref_src=twsrc%5Etfw">Tweets by MBTA</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+<section style="display: flex; text-align: left;">
+  <nav style="float: left; background-color: grey; font-size: 12px; height: 870px; width: 35%;">
+    <ul style="float: left; font-size: 12px; list-style-type: none; text-align: left; height: 100%;">
+      <li><a href="SchedulePage.html" style="color: #228B22	; display: block; margin: 0; padding: 0; text-align: left; text-decoration: none;">Schedules</a></li>
+      <li><a href="" style="color: #228B22	; display: block; margin: 0; padding: 0; text-align: left; text-decoration: none;">Fairs</a></li>
+      <li><a href="www.youtube.com" style="color: #228B22	; display: block; margin: 0; padding: 0; text-align: left; text-decoration: none;">Feedback</a></li>
+    </ul>
+  </nav>
+  <article class="flex: 1; display: block;">
+    <p style="color: black; text-align: left; float: right; margin: 10px;">Welcome to the official page of the Massachusetts Bay Transport Authority (M.B.T.A). We have established this website to ensure our loyal patrons
+    recieve the best service possible. We are fully commited to granting transparancy for all of our commuters in the Greater Boston Area. This site provides
+    all relevant information to customers, including both train schedules and location information. </p>
+    <div class="img" style="display: block;">
+        <img src="https://twt-thumbs.washtimes.com/media/image/2019/07/08/7_8_2019_ap-191836592107928201_s878x494.jpg?7d5371c9f387afa5beef59e7beb5a7f02f326e8f" style="width:100%; height: 100px; display: block;">
+    </div>
+  </article>
 </section>
 
-<br>
-<br>
-<footer>
-  <p>
-    **Disclaimer: This page is exclusively configured for the purposes of academia. We are not in any way
-    associated with the actual MBTA and are simply using its name to demonstrate a real world application of web
-    development
-  </p>
-</footer>
+
+
+<footer style="position: fixed; color: gray; font-weight: bold; font-size: 10px; float: bottom; background-color: lightgreen; width: 100%;"><p>** Disclaimer: This page is exclusively configured for the purposes of academia. We are not in any way associated with the actual MBTA and are simply
+using its name to demonstrate a real world application of web development</p></footer>
 </body>
 </html>

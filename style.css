@@ -1,0 +1,13 @@
+header{
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+footer{
+  color: gray;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: lightgreen;
+  width: 100%;
+}

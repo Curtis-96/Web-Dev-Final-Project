@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MBTA.Page1">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Green">
+            <Label Text="Fares" TextColor="WhiteSmoke" FontSize="Header" Padding="20"></Label>
+            <Grid>
+                <Label Text="Subway:           $2.40-CharlieCard $2.90-CharlieTicket/cash" FontSize="Large" Margin="20" BackgroundColor="DimGray">
+                </Label>
+            </Grid>
+            <Grid>
+                <Label Text="Bus:                   $1.70-CharlieCard $2.00-CharlieTicket/cash" FontSize="Large" Margin="20" BackgroundColor="DimGray">
+                </Label>
+            </Grid>
+            <Grid>
+                <Label Text="Express Buss (Outer):                 $4.25-CharlieCard $5.25-CharlieTicket/cash " FontSize="Large" Margin="20" BackgroundColor="DimGray">
+                </Label>
+            </Grid>
+            <Grid>
+                <Label Text="Express Buss (Inner):                 $5.25-CharlieCard $5.25-CharlieTicket/cash " FontSize="Large" Margin="20" BackgroundColor="DimGray">
+                </Label>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

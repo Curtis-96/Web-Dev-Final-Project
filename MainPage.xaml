@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MBTA.MainPage">
+        <StackLayout BackgroundColor="Green">
+
+        <!-- Place new controls here -->
+        <Label Text="MBTA" FontSize="Header"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" TextColor="White" x:Name="home"/>
+        <Button Text="Schedules" x:Name="Schedules" BackgroundColor="DarkOliveGreen" Clicked="Schedules_Clicked"></Button>
+        <Button Text="Fares" x:Name="Fares" BackgroundColor="DarkOliveGreen" Clicked="Fares_Clicked"></Button>
+        <Button Text="Feedback" x:Name="Feedback" BackgroundColor="DarkOliveGreen" Clicked="Feedback_Clicked"></Button>
+    </StackLayout>
+</ContentPage>

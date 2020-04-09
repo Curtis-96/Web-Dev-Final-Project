@@ -3,6 +3,9 @@ header {
 	font-weight: bold;
     color: black;
     text-align: center;
+    background-color: #185f9e;
+    height: 50px;
+    width: 100%;
 }
 
 input {
